@@ -9,7 +9,7 @@ const AllProjects: React.FC = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-16 md:py-24">
+    <div className="container mx-auto px-6 sm:px-8 md:px-16 lg:px-24 xl:px-40 py-16 md:py-24">
       <div className="mb-12">
         <h1 className="text-3xl md:text-4xl font-semibold text-white">
           <span className="text-primary">/</span>projects

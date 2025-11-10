@@ -1,4 +1,5 @@
 import React from 'react';
+import { Github } from 'lucide-react';
 
 interface MiniProjectCardProps {
   tags: string[];
@@ -18,8 +19,9 @@ export const MiniProjectCard: React.FC<MiniProjectCardProps> = ({ tags, title, d
         <h3 className="text-2xl font-medium text-white mb-4">{title}</h3>
         <p className="text-gray-text mb-4 flex-grow">{description}</p>
         <div className="flex gap-4">
-          <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="px-4 py-2 border border-primary text-white font-medium hover:bg-primary/20 transition-colors">
-            {liveUrlText || 'Github'} &lt;~&gt;
+          <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 border border-primary text-white font-medium hover:bg-primary/20 transition-colors">
+            <Github size={20} />
+            <span>{liveUrlText || 'Github'} &lt;~&gt;</span>
           </a>
         </div>
       </div>

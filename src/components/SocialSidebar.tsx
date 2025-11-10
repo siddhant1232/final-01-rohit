@@ -1,13 +1,16 @@
 import React from 'react';
-import { Github, Linkedin, Figma } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
+import { FigmaIcon } from './icons/Figma';
 
 const SocialSidebar: React.FC = () => {
   return (
-    <div className="hidden lg:flex flex-col items-center gap-4 fixed left-4 top-1/2 -translate-y-1/2 z-40">
-      <div className="w-px h-48 bg-gray-text"></div>
-      <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-text hover:text-white transition-colors"><Github size={24} /></a>
-      <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-text hover:text-white transition-colors"><Linkedin size={24} /></a>
-      <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-text hover:text-white transition-colors"><Figma size={24} /></a>
+    <div className="hidden lg:flex flex-col items-center fixed top-0 left-4 lg:left-8 z-40">
+      <div className="w-px h-32 bg-gray-text mb-4"></div>
+      <div className="flex flex-col items-center gap-4">
+        <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-text hover:text-white transition-colors"><Github size={24} /></a>
+        <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-text hover:text-white transition-colors"><Linkedin size={24} /></a>
+        <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-text hover:text-white transition-colors"><FigmaIcon size={24} /></a>
+      </div>
     </div>
   );
 };

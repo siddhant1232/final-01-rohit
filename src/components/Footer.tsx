@@ -1,7 +1,7 @@
 import React from 'react';
 import { Logo } from './icons/Logo';
 import { Github, Linkedin , Twitter } from 'lucide-react';
-import { FigmaIcon } from './icons/Figma';
+// import { FigmaIcon } from './icons/Figma';
 import { HashLink } from 'react-router-hash-link';
 
 
@@ -22,9 +22,9 @@ const Footer: React.FC = () => {
           <div className="flex flex-col items-center md:items-end">
             <h4 className="text-2xl font-medium text-white mb-3">Media</h4>
             <div className="flex gap-4">
-              <a href="#" className="text-gray-text hover:text-white"><Github size={32} /></a>
-              <a href="#" className="text-gray-text hover:text-white"><Linkedin size={32} /></a>
-              <a href="#" className="text-gray-text hover:text-white"><Twitter size={32} /></a>
+              <a href="https://github.com/RandomRohit-hub" className="text-gray-text hover:text-white"><Github size={32} /></a>
+              <a href="https://www.linkedin.com/in/rohit-sharma-441b20297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-gray-text hover:text-white"><Linkedin size={32} /></a>
+              <a href="https://x.com/randomrohit002?s=21" className="text-gray-text hover:text-white"><Twitter size={32} /></a>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SectionHeader } from './ui/SectionHeader';
+// import { SectionHeader } from './ui/SectionHeader';
 import { ProjectCard } from './ui/ProjectCard';
 import { Link } from 'react-router-dom';
 

@@ -9,7 +9,7 @@ const projects = [
     tags: ["Python", "Ollama", "Gradio", "json"],
     title: "Local code Assistant",
     description: "offline Ai Code Helper Assistant",
-    githubUrl: "#",
+    githubUrl: "https://github.com/RandomRohit-hub/local-code-assistant",
     liveUrl: "#"
   },
   {
@@ -17,14 +17,14 @@ const projects = [
     tags: ["YOLOv8", "PyTorch", "Labelstudio"],
     title: "RedAmberGreen",
     description: "A YOLO-based custom model that detects traffic lights and their colors from live feeds, images, or videos",
-    githubUrl: "#"
+    githubUrl: "https://github.com/RandomRohit-hub/RedAmberGreen"
   },
   {
     imgSrc: "https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/2239/0330/2ae3b3beff27bd32670522d54a43e876?Expires=1763337600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MbLxF8pNp7g7uTnNheL-rq-hbeU2PmQ4epbGHocZCyu1YZop-q3LolK4YVLYWAoQ7hzexVPX7fXOiVeaA1eH-eNy3qo7tzOSvIyib~x0-1aOsCy~PmzYaMB4BfQBvgWViKKhFaCQbHQzjL03wrAjCWcOHhNAU1U10QH~8rS76R2-XnV2~s1crHoOHaZvCv8gW79GciFei-6aeGV7bmNIq5-YEgx24YVgOOQCHXkVA9dLLsIpWeaMjT10smH7arvpEgGtpdxdVeUkDib2s7WKsB4gFR2gIxFMwJpIVYXO3KJxS9h8MR0pQTGb1FTFpvUA39fkwZIExjTYj96pSIhhxg__",
     tags: ["Langchain", "Python", "Pinecone", "Groq"],
     title: "MediPine",
     description: "Medipine is a medical chatbot that extracts and stores knowledge from textbooks to answer queries and questions accurately",
-    githubUrl: "#"
+    githubUrl: "https://github.com/RandomRohit-hub/MediPine-FlaskLLM"
   }
 ];
 

@@ -14,7 +14,7 @@ export const completeProjects: Project[] = [
     tags: ["Python", "Ollama", "Gradio", "json"],
     title: "Local code Assistant",
     description: "offline Ai Code Helper Assistant",
-    githubUrl: "#",
+    githubUrl: "https://github.com/RandomRohit-hub/local-code-assistant",
     liveUrl: "#"
   },
   {
@@ -22,14 +22,14 @@ export const completeProjects: Project[] = [
     tags: ["YOLOv8", "PyTorch", "Labelstudio"],
     title: "RedAmberGreen",
     description: "A YOLO-based custom model that detects traffic lights and their colors from live feeds, images, or videos",
-    githubUrl: "#"
+    githubUrl: "https://github.com/RandomRohit-hub/RedAmberGreen"
   },
   {
     imgSrc: "https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/2239/0330/2ae3b3beff27bd32670522d54a43e876?Expires=1763337600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=MbLxF8pNp7g7uTnNheL-rq-hbeU2PmQ4epbGHocZCyu1YZop-q3LolK4YVLYWAoQ7hzexVPX7fXOiVeaA1eH-eNy3qo7tzOSvIyib~x0-1aOsCy~PmzYaMB4BfQBvgWViKKhFaCQbHQzjL03wrAjCWcOHhNAU1U10QH~8rS76R2-XnV2~s1crHoOHaZvCv8gW79GciFei-6aeGV7bmNIq5-YEgx24YVgOOQCHXkVA9dLLsIpWeaMjT10smH7arvpEgGtpdxdVeUkDib2s7WKsB4gFR2gIxFMwJpIVYXO3KJxS9h8MR0pQTGb1FTFpvUA39fkwZIExjTYj96pSIhhxg__",
     tags: ["Langchain", "Python", "Pinecone", "Groq"],
     title: "MediPine",
     description: "Medipine is a medical chatbot that extracts and stores knowledge from textbooks to answer queries and questions accurately",
-    githubUrl: "#",
+    githubUrl: "https://github.com/RandomRohit-hub/MediPine-FlaskLLM",
     liveUrl: "#"
   },
   {
@@ -37,14 +37,14 @@ export const completeProjects: Project[] = [
     tags: ["Python", "streamlit", "langchain Groq"],
     title: "Summify",
     description: "A lightweight tool that summarizes YouTube videos and websites into concise, easy-to-read overviews",
-    githubUrl: "#"
+    githubUrl: "https://github.com/RandomRohit-hub/Summify"
   },
   {
     imgSrc: "https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/785e/6617/4e105d2f99dc00691593594f41c85514?Expires=1763337600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=FVvtwDkhOwcRnT-xW~ni5K7tLu0RtY6SibgazTM6wC8fY33gVy5sRL4rdPj0iUP7Hg~uQL9BAb67zUgOx2x6pbu7cEgptHfCNEn88VaCwn6ub9xvuz5egJZECysZBbrhnIiuiMAx~ky2B4uZs3QFtXROV6BjaYnMzdQZe-povOs9Y--q7kV3lwVnq6thS9KW4Xv~a9-6qOTbgJu4bZKOXhpzqOvQm3GuvB09Jhhk-qwo1hWYnO4iwritxaGqHt672g8RFsp-Y1AwNPDQPXe0TdOQDkAr33Mcq3Wdqmsdq6l-vOfVHQVyUowAWN4Js73mpfm2IljxSix~6M7z7JzBfA__",
     tags: ["Yolov8", "python", "OpenCv"],
     title: "RoadFlowYOLO",
     description: "A YOLOv8-based real-time model that detects and counts vehicles from images, videos, or live camera feeds to analyze traffic flow efficiently",
-    githubUrl: "#"
+    githubUrl: "https://github.com/RandomRohit-hub/RoadFlowYOLO"
   }
 ];
 
@@ -53,21 +53,21 @@ export const miniProjects: Project[] = [
     tags: ["Python", "tensorflow", "streamlit"],
     title: "Wordpredict",
     description: "A Next Word Prediction model using NLP that suggests the most probable next word from user input, simulating predictive text systems like Google’s suggestions",
-    githubUrl: "#",
+    githubUrl: "https://github.com/RandomRohit-hub/Next-Word-Prediction-Using-LSTM",
     liveUrlText: "Github"
   },
   {
     tags: ["Python", "tensorflow", "pickel"],
     title: "RAG Doc’s Q&A",
     description: "An AI-powered RAG application that answers queries from PDF documents with accurate, context-aware responses.",
-    githubUrl: "#",
+    githubUrl: "https://github.com/RandomRohit-hub/RAG-Document-Q-A-chatbot-with-groq-and-llama3",
     liveUrlText: "Github"
   },
   {
     tags: ["Yolov8"],
     title: "YoloV8 Obj detection",
     description: "A flexible YOLOv8 project for detecting and classifying objects from photos, videos, and live camera feeds.",
-    githubUrl: "#",
+    githubUrl: "https://github.com/RandomRohit-hub/obj-detection-Yolo-v8",
     liveUrlText: "Github"
   },
 
@@ -75,21 +75,21 @@ export const miniProjects: Project[] = [
     tags: ["Python"],
     title: "Olympic Data Analyser",
     description: "A Summer Olympics data analysis project that cleans, explores, and visualizes athlete and country trends over time, with a Streamlit app reading the dataset directly from a ZIP file.",
-    githubUrl: "#",
+    githubUrl: "https://github.com/RandomRohit-hub/Olympic-Data-Analyser",
     liveUrlText: "Streamlit"
   },
   {
     tags: ["Python", "Jupyter-notebook"],
     title: "NeuroTune",
     description: "NeuroTune is a Streamlit-based music recommendation system that suggests songs using audio and metadata similarity, offering an easy and interactive way to discover tracks",
-    githubUrl: "#",
+    githubUrl: "https://github.com/RandomRohit-hub/NeuroTune",
     liveUrlText: "Github"
   },
   {
     tags: ["python", "seaborn", "scikit-learn"],
     title: "Calories Burnt Prediction",
     description: "An interactive Streamlit app that uses an XGBoost model to predict calories burned from personal and exercise data, featuring real-time predictions, visualizations, and a clean, responsive UI.",
-    githubUrl: "#",
+    githubUrl: "https://github.com/RandomRohit-hub/Calories-Burnt-Prediction",
     liveUrlText: "Streamlit"
   }
 ];

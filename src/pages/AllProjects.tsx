@@ -25,7 +25,9 @@ const AllProjects: React.FC = () => {
             <div className="hidden sm:block flex-grow h-px bg-primary"></div>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {completeProjects.map(p => <ProjectCard key={p.title} {...p} />)}
+          {completeProjects.map(p => (
+            <ProjectCard key={p.title} {...p} imgSrc={p.imgSrc ?? ''} />
+          ))}
         </div>
       </section>
 

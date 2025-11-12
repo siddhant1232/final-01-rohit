@@ -25,7 +25,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ imgSrc, tags, title, d
           </a>
           {liveUrl && (
              <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="px-4 py-2 border border-gray-text text-gray-text font-medium hover:bg-gray-text/20 transition-colors">
-              Cached &gt;=
+              Live &gt;=
             </a>
           )}
         </div>

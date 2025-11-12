@@ -22,11 +22,11 @@ const Contact: React.FC = () => {
               <h3 className="text-white font-semibold mb-4">Message me here</h3>
               <a href="#" className="flex items-center gap-2 mb-2 text-gray-text hover:text-white transition-colors">
                 <MessageSquare size={24} />
-                <span>!ECLIPSE#2517</span>
+               
               </a>
               <a href="mailto:rohit@example.com" className="flex items-center gap-2 text-gray-text hover:text-white transition-colors">
                 <Mail size={24} />
-                <span>rohit@example.com</span>
+               
               </a>
             </div>
           </div>

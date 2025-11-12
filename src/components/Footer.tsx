@@ -1,8 +1,9 @@
 import React from 'react';
 import { Logo } from './icons/Logo';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin , Twitter } from 'lucide-react';
 import { FigmaIcon } from './icons/Figma';
 import { HashLink } from 'react-router-hash-link';
+
 
 const Footer: React.FC = () => {
   return (
@@ -23,7 +24,7 @@ const Footer: React.FC = () => {
             <div className="flex gap-4">
               <a href="#" className="text-gray-text hover:text-white"><Github size={32} /></a>
               <a href="#" className="text-gray-text hover:text-white"><Linkedin size={32} /></a>
-              <a href="#" className="text-gray-text hover:text-white"><FigmaIcon size={32} /></a>
+              <a href="#" className="text-gray-text hover:text-white"><Twitter size={32} /></a>
             </div>
           </div>
         </div>

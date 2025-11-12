@@ -4,11 +4,11 @@ import { SkillCard } from './ui/SkillCard';
 import Dots from './ui/Dots';
 
 const skillsData = {
-  languages: ["Python", "JupyterNotebook", "HTML", "CSS", "JavaScript", "C++", "Java"],
-  databases: ["Astra DB", "Pinecone"],
-  tools: ["Groq", "GitHub"],
-  frameworks: ["FastApi", "Uvicorn", "Tensorflow", "Langchain-groq", "Langserve", "Langchain_community", "Streamlit"],
-  other: ["OpenCV", "Ultralytics (YOLO)", "PyTorch", "Torchvision", "Numpy", "Matplotlib", "Pandas", "JAX", "Jaxlib", "Scipy", "Mediapipe", "ONNX Runtime", "Ultralytics-thop"]
+  languages: ["Python", "HTML", "CSS", "JavaScript", "C++", "Java"],
+  databases: ["Astra DB", "Pinecone","ChromaDB","FAISS"],
+  tools: ["Groq", "GitHub","Uvicorn","Anaconda / Conda","Git / GitHub","Docker","VS Code (IDE)"],
+  frameworks: ["OpenCV","PyTorch","llamaIndex","Hugging Face Transformers","FastApi", "Uvicorn", "Tensorflow", "Langchain-groq", "Langserve", "Langchain_community", "Streamlit"],
+  other: [ "Ultralytics (YOLO)",  "Torchvision", "Numpy", "Matplotlib", "Pandas", "JAX", "Jaxlib", "Scipy", "Mediapipe", "ONNX Runtime", "Ultralytics-thop"]
 };
 
 

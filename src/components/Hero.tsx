@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex items-center gap-2 border border-gray-text p-2 mt-4">
             <div className="w-4 h-4 bg-primary"></div>
-            <p className="text-gray-text">Currently working on <span className="text-white">Portfolio</span></p>
+            <p className="text-gray-text">Currently working on <span className="text-white">Agentic AI</span></p>
           </div>
         </div>
       </div>

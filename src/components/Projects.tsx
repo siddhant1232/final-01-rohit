@@ -10,7 +10,7 @@ const projects = [
     title: "Local code Assistant",
     description: "offline Ai Code Helper Assistant",
     githubUrl: "https://github.com/RandomRohit-hub/local-code-assistant",
-    liveUrl: "#"
+    // liveUrl: "#"
   },
   {
     imgSrc: "https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/cf3d/5ca5/1c430c5feca7d7e9d9f74810e101c995?Expires=1763337600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XjtkG~nZPJmZsE6-Lxj~GVrUTPyg94zNsSWbxuiVBTE1IoI5IiZhm3lsH5omXTfWxeLk6ZTmWsi7LuUv0OqTpo6~2If4rZy~C0Ky~wgEEB2MnDHkwEHMA~0X7iAYaphztr-p66B3IzN7Mg8WQ6a5tBL-vznCzmgX6LXLdNKDxJD0aL-van8E0S~ZO0DEObJ6-JqMFd8-A2LpkjEjwyTfMRNCIrBkWT9ciAwAOO1KwFKVLbgygJ7kbESoN1aNlEKTanLgcZ8QUHzsO2fQImNIHJIg7rPbzJ11erexDrKQoAAUjVbYWJ0HGlaAWDQTgP7igqIJkDZTZDrriThOmPNFPA__",

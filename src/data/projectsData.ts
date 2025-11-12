@@ -4,8 +4,8 @@ export interface Project {
   title: string;
   description: string;
   githubUrl: string;
-  liveUrl?: string;
-  liveUrlText?: string;
+  // liveUrl?: string;
+  // liveUrlText?: string;
 }
 
 export const completeProjects: Project[] = [
@@ -15,7 +15,7 @@ export const completeProjects: Project[] = [
     title: "Local code Assistant",
     description: "offline Ai Code Helper Assistant",
     githubUrl: "https://github.com/RandomRohit-hub/local-code-assistant",
-    liveUrl: "#"
+    // liveUrl: "#"
   },
   {
     imgSrc: "https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/cf3d/5ca5/1c430c5feca7d7e9d9f74810e101c995?Expires=1763337600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XjtkG~nZPJmZsE6-Lxj~GVrUTPyg94zNsSWbxuiVBTE1IoI5IiZhm3lsH5omXTfWxeLk6ZTmWsi7LuUv0OqTpo6~2If4rZy~C0Ky~wgEEB2MnDHkwEHMA~0X7iAYaphztr-p66B3IzN7Mg8WQ6a5tBL-vznCzmgX6LXLdNKDxJD0aL-van8E0S~ZO0DEObJ6-JqMFd8-A2LpkjEjwyTfMRNCIrBkWT9ciAwAOO1KwFKVLbgygJ7kbESoN1aNlEKTanLgcZ8QUHzsO2fQImNIHJIg7rPbzJ11erexDrKQoAAUjVbYWJ0HGlaAWDQTgP7igqIJkDZTZDrriThOmPNFPA__",
@@ -30,7 +30,7 @@ export const completeProjects: Project[] = [
     title: "MediPine",
     description: "Medipine is a medical chatbot that extracts and stores knowledge from textbooks to answer queries and questions accurately",
     githubUrl: "https://github.com/RandomRohit-hub/MediPine-FlaskLLM",
-    liveUrl: "#"
+    // liveUrl: "#"
   },
   {
     imgSrc: "https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/638e/5825/a780744f89ce9c3bc0546de0177fd7b9?Expires=1763337600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=suvXsyx6nDaGExoxPHlXz~jNolf4NAqlmN4AdNY7fCEPofwTsiVTsjbLjI9dxMmyjTA3QvoNsLT7pcm61tSqCDxfIkXFN4e~e-WX42t2~RM5xvqZe9j9LFRD4qjv4u2FDql24Gn75dXQxGuiMSt~iq4uCYflR8MbZItT5nd-9cXkvIzDN2zVnmypD3~ODM-F2mVjBJpjSmAAebXVO27afoZFVaAxf-OQQ13lhnUOnSsLE5poBSMmfxhAmYItZcrWL3sZIjHza-hxvyPeoXB7Aw1ZbQH1-bbKh0PqosjsRcCiag3O3ZvZytVBoM6ResZQTE-l5BywPHLf1S5T60U~bQ__",
@@ -54,21 +54,21 @@ export const miniProjects: Project[] = [
     title: "Wordpredict",
     description: "A Next Word Prediction model using NLP that suggests the most probable next word from user input, simulating predictive text systems like Google’s suggestions",
     githubUrl: "https://github.com/RandomRohit-hub/Next-Word-Prediction-Using-LSTM",
-    liveUrlText: "Github"
+    // liveUrlText: "Github"
   },
   {
     tags: ["Python", "tensorflow", "pickel"],
     title: "RAG Doc’s Q&A",
     description: "An AI-powered RAG application that answers queries from PDF documents with accurate, context-aware responses.",
     githubUrl: "https://github.com/RandomRohit-hub/RAG-Document-Q-A-chatbot-with-groq-and-llama3",
-    liveUrlText: "Github"
+    // liveUrlText: "Github"
   },
   {
     tags: ["Yolov8"],
     title: "YoloV8 Obj detection",
     description: "A flexible YOLOv8 project for detecting and classifying objects from photos, videos, and live camera feeds.",
     githubUrl: "https://github.com/RandomRohit-hub/obj-detection-Yolo-v8",
-    liveUrlText: "Github"
+    // liveUrlText: "Github"
   },
 
   {
@@ -76,20 +76,20 @@ export const miniProjects: Project[] = [
     title: "Olympic Data Analyser",
     description: "A Summer Olympics data analysis project that cleans, explores, and visualizes athlete and country trends over time, with a Streamlit app reading the dataset directly from a ZIP file.",
     githubUrl: "https://github.com/RandomRohit-hub/Olympic-Data-Analyser",
-    liveUrlText: "Streamlit"
+    // liveUrlText: "Streamlit"
   },
   {
     tags: ["Python", "Jupyter-notebook"],
     title: "NeuroTune",
     description: "NeuroTune is a Streamlit-based music recommendation system that suggests songs using audio and metadata similarity, offering an easy and interactive way to discover tracks",
     githubUrl: "https://github.com/RandomRohit-hub/NeuroTune",
-    liveUrlText: "Github"
+    // liveUrlText: "Github"
   },
   {
     tags: ["python", "seaborn", "scikit-learn"],
     title: "Calories Burnt Prediction",
     description: "An interactive Streamlit app that uses an XGBoost model to predict calories burned from personal and exercise data, featuring real-time predictions, visualizations, and a clean, responsive UI.",
     githubUrl: "https://github.com/RandomRohit-hub/Calories-Burnt-Prediction",
-    liveUrlText: "Streamlit"
+    // liveUrlText: "Streamlit"
   }
 ];

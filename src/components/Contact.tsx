@@ -5,7 +5,7 @@ import Dots from './ui/Dots';
 
 const Contact: React.FC = () => {
   const phoneNumber = "919696827292";
-  const message = "Hello Siddhant! I want to chat with you.";
+  const message = "Hi";
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message
   )}`;

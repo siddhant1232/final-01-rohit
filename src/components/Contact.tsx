@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
                 <MessageSquare size={24} />
                
               </a>
-              <a href="mailto:rohit@example.com" className="flex items-center gap-2 text-gray-text hover:text-white transition-colors">
+              <a href="mailto:randomrohit002@gmail.com" className="flex items-center gap-2 text-gray-text hover:text-white transition-colors">
                 <Mail size={24} />
                
               </a>

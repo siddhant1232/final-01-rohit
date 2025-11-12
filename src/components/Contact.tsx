@@ -4,6 +4,11 @@ import { Mail, MessageSquare } from 'lucide-react';
 import Dots from './ui/Dots';
 
 const Contact: React.FC = () => {
+  const phoneNumber = "919696827292";
+  const message = "Hello Siddhant! I want to chat with you.";
+  const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    message
+  )}`;
   return (
     <section id="contacts" className="py-16 md:py-24">
       <div className="container mx-auto px-6 sm:px-8 md:px-16 lg:px-24 xl:px-40">
@@ -20,7 +25,7 @@ const Contact: React.FC = () => {
             </div>
             <div className="w-full lg:w-auto border border-gray-text p-4">
               <h3 className="text-white font-semibold mb-4">Message me here</h3>
-              <a href="#" className="flex items-center gap-2 mb-2 text-gray-text hover:text-white transition-colors">
+              <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 mb-2 text-gray-text hover:text-white transition-colors">
                 <MessageSquare size={24} />
                
               </a>

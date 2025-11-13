@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Logo } from './icons/Logo';
 import { Menu, X } from 'lucide-react';
 import { HashLink } from 'react-router-hash-link';
 import { Link, useLocation } from 'react-router-dom';
+import Logo01 from './icons/Logo01.png'; 
 
 const navLinks = [
   { name: 'home', href: '/#home' },
@@ -19,16 +19,17 @@ const Header: React.FC = () => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -120; // Offset for sticky header
     window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' });
-  }
+  };
 
   const getLinkClass = (href: string) => {
-    const baseClass = "flex items-center gap-1 text-gray-text hover:text-white transition-colors";
+    const baseClass =
+      'flex items-center gap-1 text-gray-text hover:text-white transition-colors';
     const linkHash = href.split('#')[1];
-    
+
     if (href === '/#home' && location.pathname === '/' && location.hash === '') {
       return `${baseClass} text-white`;
     }
-    
+
     if (location.hash === `#${linkHash}`) {
       return `${baseClass} text-white`;
     }
@@ -40,17 +41,23 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm">
       <div className="container mx-auto px-6 sm:px-8 md:px-16 lg:px-24 xl:px-40">
         <div className="flex justify-between items-center py-8">
-          <Link to="/" className="flex items-center gap-2">
-            <Logo />
+          <Link to="/" className="flex items-center gap-3">
+            <img
+              src={Logo01}
+              alt="Eclipse Logo"
+              className="w-8 h-8 object-contain"
+              loading="lazy"
+            />
             <span className="font-bold text-white text-lg">Eclipse</span>
           </Link>
-          
+
+          {/* Desktop navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <HashLink 
-                key={link.name} 
+              <HashLink
+                key={link.name}
                 to={link.href}
-                smooth 
+                smooth
                 scroll={scrollWithOffset}
                 className={getLinkClass(link.href)}
               >
@@ -60,24 +67,30 @@ const Header: React.FC = () => {
             ))}
           </nav>
 
+          {/* Mobile menu button */}
           <div className="md:hidden">
-            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-white">
+            <button
+              onClick={() => setIsMenuOpen((s) => !s)}
+              className="text-white"
+              aria-label="Toggle menu"
+            >
               {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
         </div>
       </div>
-      
+
+      {/* Mobile menu */}
       {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-background h-screen">
           <nav className="flex flex-col items-center justify-center gap-12 text-3xl h-full -mt-20">
-            {navLinks.map(link => (
-              <HashLink 
-                key={link.name} 
+            {navLinks.map((link) => (
+              <HashLink
+                key={link.name}
                 to={link.href}
                 smooth
                 scroll={scrollWithOffset}
-                onClick={() => setIsMenuOpen(false)} 
+                onClick={() => setIsMenuOpen(false)}
                 className="flex items-center gap-2 text-gray-text hover:text-white transition-colors"
               >
                 <span className="text-primary">#</span>

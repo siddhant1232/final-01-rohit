@@ -46,7 +46,7 @@ const Contact: React.FC = () => {
     try {
       const subject = encodeURIComponent(`Contact from ${form.name}`);
       const body = encodeURIComponent(`${form.message}\n\n— ${form.name} (${form.email})`);
-      window.location.href = `mailto:you@yourdomain.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:randomrohit002@gmail.com?subject=${subject}&body=${body}`;
 
       setStatus('success');
       setForm(initialState);

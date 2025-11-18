@@ -1,6 +1,7 @@
 import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 
+
 const Hero: React.FC = () => {
   const scrollWithOffset = (el: HTMLElement) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
@@ -23,7 +24,7 @@ const Hero: React.FC = () => {
         <div className="md:w-1/2 flex flex-col items-center">
           <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px]">
              <img 
-              src="https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/e515/331d/832a7d3dbfc9f1b1f1747464a916f8f5?Expires=1763337600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fPk~F1tmR2C4-W56tvulbOXjSb46yAzCpVxGzKZYKtDD2XDP24GQ4H4OAZ4XY-nz9ecms2aL-A5TBtfyTC2toFeD384jPPUUX6EH~ORRKPRBlzQA1Kdyz3C-PIvmr~5U1oihJo3tphy89gPHoiQ6QgQpSvnnT~LmwYjHBnO1uRkiLgm6VXsjsJQivRV96wvVmXgvwMQQAeCcwLB2vXjuamDFjKUJghZi1VX-yrDXG9hJTHCAO2T5gMAGxp1qbVPYxyiuC84NpQxJPx0OBkrfNC-Wt8UlFgzTn2FXjcCRFdlhVBLo1ewcgY4KOS-kDukwZG2UM9ynfo63i8ACvxpXcA__" 
+              src="https://res.cloudinary.com/dzrzlp4bz/image/upload/v1763444774/rohit-01_vilkzt.png" 
               alt="Rohit, the developer" 
               className="w-full h-full object-cover rounded-full border-4 border-primary/50"
             />

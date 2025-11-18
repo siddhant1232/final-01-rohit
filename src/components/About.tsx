@@ -20,7 +20,7 @@ const About: React.FC = () => {
           </div>
           <div className="md:w-1/2 flex justify-center">
             <img 
-              src="https://img-wrapper.vercel.app/image?url=https://img-wrapper.vercel.app/image?url=https://s3-alpha-sig.figma.com/img/7886/716d/a0552e00b2b965caf2ddb10a611f5861?Expires=1763337600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=FXWadPmWnHNkzUSHp1GZb0K9BfEpohhXAvig3sKilyU7E891f-~sdI0HkKYNtwJUzaMBwCy9o331cJmqNPjuAvaSn-DE5iYQllYnusCiCl4XPvCxMW6audIwt5DIQ0z4wVFBQK2ES2ELk1JIFTY3X6VUe1v3z~Z5Zi0PyfPh9L1qDqJZmJTb~1iCxGBvpGcO3TvHkexh2csul9L1~FwpNVyg3nGLH27ffQGfopxne1dDqhfwmT04J7ebDPAep0R8nZf~k9JV~ofT~dLrn~qoz~b9s4AVQO4KJBt6Hn8iY8ihjK227yOidK0zsM0eM8iRIzgl4rqMSFRpIC7ZygKa1g__" 
+              src="https://res.cloudinary.com/dzrzlp4bz/image/upload/v1763455046/about_iebl0b.png" 
               alt="Rohit holding a laptop" 
               className="max-w-xs md:max-w-sm w-full h-auto object-contain"
             />
